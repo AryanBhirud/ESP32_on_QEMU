@@ -10,15 +10,15 @@ This guide provides step-by-step instructions to set up and run an ESP-IDF proje
 
 ### Steps to Build and Run
 
-#### **1️. Create Project (If Not Done)**
+#### **1. Create Project (If Not Done)**
 ```bash
 idf.py create-project esp32_counter
 cd esp32_counter
 ```
-#### **2️. Write Main Code**
+#### **2. Write Main Code**
 Modify `main/esp32_counter.c` and add the counter logic.
 
-#### **3. Create Project (If Not Done)**
+#### **3. Create Project**
 Build the Project
 ```bash
 idf.py build
