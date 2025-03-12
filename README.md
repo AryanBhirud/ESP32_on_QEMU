@@ -2,6 +2,10 @@
 
 This guide provides step-by-step instructions to set up and run an ESP-IDF project for ESP32 using QEMU (an emulator for ESP32).  You can develop and test ESP32 applications without actual hardware.
 
+## Features
+- Complete ESP32 emulation.
+- BMP280 emulation.
+
 ## Setup Instructions
 
 ### Prerequisites

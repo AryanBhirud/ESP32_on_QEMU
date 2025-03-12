@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32_counter",
-    "project_version":    "1",
+    "project_version":    "95863cc-dirty",
     "project_path":       "/home/aryan/esp/esp32_counter",
     "idf_path":           "/home/aryan/esp/esp-idf",
     "build_dir":          "/home/aryan/esp/esp32_counter/build",
@@ -1210,8 +1210,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/aryan/esp/esp32_counter/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/aryan/esp/esp32_counter/main/esp32_counter.c" ],
-            "include_dirs": [ "." ]
+            "sources": [ "/home/aryan/esp/esp32_counter/main/main.cpp", "/home/aryan/esp/esp32_counter/utils/sensors/bmp280.cpp" ],
+            "include_dirs": [ "../utils/sensors/" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2884,7 +2884,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "." ]
+            "include_dirs": [ "../utils/sensors/" ]
         }
     },
     "debug_prefix_map_gdbinit": "",
