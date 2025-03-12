@@ -1,0 +1,2 @@
+source /home/aryan/esp/esp32_counter/build/bootloader/gdbinit/symbols
+source /home/aryan/esp/esp32_counter/build/bootloader/gdbinit/connect
